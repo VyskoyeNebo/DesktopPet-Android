@@ -1,0 +1,13 @@
+.gradle/
+.gradle-user-home/
+.build-home/
+.android/
+.tmp/
+**/build/
+local.properties
+.signing/
+*.apk
+*.idsig
+*.log
+work/
+dist/

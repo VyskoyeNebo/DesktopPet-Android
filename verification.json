@@ -1,0 +1,194 @@
+{
+  "version": "1.0.0",
+  "package": "com.vyskoyenebo.pet",
+  "target_sdk": 35,
+  "variants": {
+    "8": {
+      "min_sdk": 26,
+      "target_sdk": 35,
+      "bytes": 78508197,
+      "sha256": "05b1e957ea5f4d378dfbfcf99a0e4fe2d1cbb301519e7fd7f79ab97874106070",
+      "asset_files_verified": 723,
+      "frames": 718,
+      "clips": 14,
+      "universal_no_native_libraries": true,
+      "offline": true,
+      "signature_v2_verified": true,
+      "lint_errors": 0,
+      "lint_warning_ids": [
+        "DataExtractionRules",
+        "DiscouragedApi",
+        "GradleDependency",
+        "IconLauncherShape",
+        "InternalInsetResource",
+        "OldTargetApi",
+        "RtlHardcoded",
+        "ViewConstructor"
+      ],
+      "unit_tests": {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "10": {
+      "min_sdk": 29,
+      "target_sdk": 35,
+      "bytes": 78534129,
+      "sha256": "c8c4b179ff2a1b147e05a5bec2df6fa8eccf01410058a5f5a6d0cf06bf63b7d9",
+      "asset_files_verified": 723,
+      "frames": 718,
+      "clips": 14,
+      "universal_no_native_libraries": true,
+      "offline": true,
+      "signature_v2_verified": true,
+      "lint_errors": 0,
+      "lint_warning_ids": [
+        "DataExtractionRules",
+        "DiscouragedApi",
+        "GradleDependency",
+        "IconLauncherShape",
+        "InternalInsetResource",
+        "ObsoleteSdkInt",
+        "OldTargetApi",
+        "RtlHardcoded",
+        "ViewConstructor"
+      ],
+      "unit_tests": {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "11": {
+      "min_sdk": 30,
+      "target_sdk": 35,
+      "bytes": 78533509,
+      "sha256": "b5c3619accdc08c74ca643db0fc97be73c7de9390421cb77ac2963dc3588d9e0",
+      "asset_files_verified": 723,
+      "frames": 718,
+      "clips": 14,
+      "universal_no_native_libraries": true,
+      "offline": true,
+      "signature_v2_verified": true,
+      "lint_errors": 0,
+      "lint_warning_ids": [
+        "DataExtractionRules",
+        "DiscouragedApi",
+        "GradleDependency",
+        "IconLauncherShape",
+        "InternalInsetResource",
+        "ObsoleteSdkInt",
+        "OldTargetApi",
+        "RtlHardcoded",
+        "ViewConstructor"
+      ],
+      "unit_tests": {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "12": {
+      "min_sdk": 31,
+      "target_sdk": 35,
+      "bytes": 78533349,
+      "sha256": "7cd459dba66bf1dc64f6db6cb57868cd587d6f2a85bca5dcc0ecfea603477fcf",
+      "asset_files_verified": 723,
+      "frames": 718,
+      "clips": 14,
+      "universal_no_native_libraries": true,
+      "offline": true,
+      "signature_v2_verified": true,
+      "lint_errors": 0,
+      "lint_warning_ids": [
+        "DataExtractionRules",
+        "DiscouragedApi",
+        "GradleDependency",
+        "IconLauncherShape",
+        "InternalInsetResource",
+        "ObsoleteSdkInt",
+        "OldTargetApi",
+        "RtlHardcoded",
+        "ViewConstructor"
+      ],
+      "unit_tests": {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0
+      }
+    }
+  },
+  "same_signing_certificate": true,
+  "signer_certificate_sha256": "ec818ce4eabb02aa3be04c033eebd2299f69fd2d16cde0d30895d4f2725876d9",
+  "device_verification": {
+    "foreground_service": true,
+    "single_overlay": true,
+    "default_q_window_physical": [
+      1943,
+      817,
+      2344,
+      1249
+    ],
+    "drag": true,
+    "fixed": true,
+    "click_through_flag_and_opacity": true,
+    "recover_from_control_page": true,
+    "platform": "Android 12L / API 32 x86_64 emulator",
+    "forms": [
+      {
+        "form": "蕾米埃尔",
+        "window_physical": [
+          1272,
+          638,
+          2136,
+          1190
+        ],
+        "stable_window_position": true
+      },
+      {
+        "form": "星见雅",
+        "window_physical": [
+          1454,
+          419,
+          2076,
+          1283
+        ],
+        "stable_window_position": true
+      },
+      {
+        "form": "普罗米娅",
+        "window_physical": [
+          1506,
+          419,
+          2058,
+          1283
+        ],
+        "stable_window_position": true
+      },
+      {
+        "form": "仪玄",
+        "window_physical": [
+          1435,
+          419,
+          2082,
+          1283
+        ],
+        "stable_window_position": true
+      },
+      {
+        "form": "Q版蕾米",
+        "window_physical": [
+          1619,
+          722,
+          2020,
+          1154
+        ],
+        "stable_window_position": true
+      }
+    ],
+    "notification_hide_show": true,
+    "stop_service": true,
+    "android8_10_11_runtime_tested": false
+  }
+}
