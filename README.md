@@ -1,6 +1,6 @@
 # 口袋桌宠 · Android
 
-项目位置：`E:\petapk`。四个安装包位于 `dist` 目录。
+
 
 [下载 v1.0.0 四个版本](https://github.com/VyskoyeNebo/DesktopPet-Android/releases/tag/v1.0.0)
 
@@ -55,14 +55,5 @@ Android Studio 可直接打开此目录。命令行可运行：
 
 首次构建会创建 `.signing/pet-release.jks` 和本地签名配置，以后沿用同一密钥。请自行备份此目录以便后续覆盖升级；源码 ZIP 不包含该私钥、密码、SDK、构建缓存或个人路径配置。
 
-## 验证
-
-四个版本分别验证最低 SDK、APK v2 签名、统一证书、包名与权限、全部 718 帧资源一致性、Release Lint 和 6 项单元检查（共 24 项执行）。详细记录见 [verification.json](verification.json)。
-
-Android 12L / API 32 的 x86_64 模拟环境已安装 Android 12 版，实际验证：控制页启动、单一前台悬浮服务、五形态切换、拖动、长按固定、穿透标志及安全透明度、控制页恢复、通知栏隐藏/显示和关闭后的服务清理。整体窗口在播放时位置固定。
-
-Android 8、10、11 目前完成构建与静态检查，未在这些系统实机运行；Android 12 的不同厂商真机及更高系统也需复核。
-
-建议手机复核：悬浮授权、通知权限、五形态切换、拖动固定、穿透后恢复、横竖屏边界、熄屏唤醒与后台省电策略。若系统停止后台服务，请重新打开应用启动；关闭服务会清除点击穿透状态。
 
 技术依据：[Android 前台服务类型](https://developer.android.com/develop/background-work/services/fgs/service-types#special-use)、[悬浮窗与点击穿透规则](https://developer.android.com/reference/android/view/WindowManager.LayoutParams#FLAG_NOT_TOUCHABLE)、[AGP 8.11 工具链要求](https://developer.android.com/build/releases/agp-8-11-0-release-notes)。
